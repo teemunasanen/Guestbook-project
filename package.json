@@ -1,7 +1,7 @@
 {
   "name": "guestbook-project",
   "version": "1.0.0",
-  "description": "node.js app project",
+  "description": "app project",
   "engines": {
     "node": "14.x"
   },
