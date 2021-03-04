@@ -1,0 +1,49 @@
+[
+  {
+    "id": "1",
+    "username": "Pam",
+    "country": "Anguilla",
+    "date": "20-5-2020 12:30",
+    "message": "How are you guys doing?"
+  },
+  {
+    "id": "2",
+    "username": "Sofia",
+    "country": "Macau",
+    "date": "6-10-2020 23:22",
+    "message": "Hello world!"
+  },
+  {
+    "id": "3",
+    "username": "Ashley",
+    "country": "Mauritania",
+    "date": "22-2-2021 5:15",
+    "message": "Greetings from Mauritania!"
+  },
+  {
+    "id": "4",
+    "username": "Baxter",
+    "country": "Malta",
+    "date": "4-3-2021 2:30",
+    "message": "Very nice!"
+  },
+  {
+    "id": "5",
+    "username": "Vickie",
+    "country": "Uganda",
+    "date": "2-3-2021 6:30",
+    "message": "Anyone from Africa here?"
+  },
+  {
+    "username": "Teemu",
+    "country": "Finland",
+    "message": "Torille",
+    "date": "4-3-2021 2:37"
+  },
+  {
+    "username": "Jari",
+    "country": "Finland",
+    "message": "Litti",
+    "date": "4-3-2021 2:37"
+  }
+]

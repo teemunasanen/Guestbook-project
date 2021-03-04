@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Demo of the School project." />
+    <title>Guestbook &ndash; App &ndash; Project</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@2.0.5/build/pure-min.css"
+      integrity="sha384-LTIDeidl25h2dPxrB2Ekgc9c7sEC3CWGM6HeFmuDNUjX76Ert4Z4IY714dhZHPLd"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="layout">
+      <a href="#menu" id="menuLink" class="menu-link">
+        <span></span>
+      </a>
+
+      <div id="menu">
+        <div class="pure-menu">
+          <a class="pure-menu-heading" href="/">Guestbook App</a>
+
+          <ul class="pure-menu-list">
+            <li class="pure-menu-item pure-menu-selected">
+              <a href="/guestbook" class="pure-menu-link">Guestbook</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="/newmessage" class="pure-menu-link">New Message</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="/ajaxmessage" class="pure-menu-link">New Ajax Message</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="main">
+        <div class="header">
+          <h1>Guestbook Application</h1>
+          <h2>Demo project for the School</h2>
+        </div>
+
+        <div class="content">
+          <h2 class="content-subhead">Messages</h2>
+          <div id="target"></div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">Kasaan räpeltänyt: Teemu Näsänen</div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="ui.js"></script>
+    <script src="guestbook.js"></script>
+  </body>
+</html>
