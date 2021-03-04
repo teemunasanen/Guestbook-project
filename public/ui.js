@@ -1,3 +1,4 @@
+// Pure.css Responsive Side Menu-javascript
 (function (window, document) {
   function getElements() {
     return {

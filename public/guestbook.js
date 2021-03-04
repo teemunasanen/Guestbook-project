@@ -1,3 +1,4 @@
+// Guestbook JSON-data to variable as table and display at target
 $.getJSON("demodata.json", function (data) {
   let messages = `<table class="pure-table pure-table-horizontal">
         <thead><tr><th>Name</th><th>Coyntry</th><th>Message</th><th>Date</th></tr></thead><tbody>`;
